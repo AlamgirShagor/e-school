@@ -1,0 +1,159 @@
+
+/* reuseable Components */
+*{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.btn-button{
+    background-color: #21B573;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: #fff;
+    padding: 7px 30px;
+}
+.btn-button:hover{
+    background-color: #21925f;
+    color: #fff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+a.text-light:focus, a.text-light:hover {
+    color: #fff!important;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+}
+h1 span{
+    color: #21B573;
+}
+h5{
+    color: #FC5C28;
+}
+.lead{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+/* header-section */
+#header-section{
+    background-color: #F0FFF0;
+}
+/* navbar-section */
+.navbar img{
+    width: 150px;
+    height: auto;
+}
+.navbar-light{
+    background: #F0FFF0 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #1E1F1E;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    
+}
+/* about students */
+.card{
+    border: none;
+    background: #F8FFFB;
+    border-radius: 10px;
+}
+#about-students .card:hover{
+    transition: .5s;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    
+}
+#about-students .card img{
+  height: 100px;
+  padding: 20px 0;  
+}
+h3{
+    color: #413960;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+h6{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #413960;
+}
+/* Online Courses */
+#online-courses .card{
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.icon-couses img{
+    width: 24px;
+    height: 24px;
+}
+.icon-couses p{
+    font-size: 16px;
+}
+/* blog-section */
+#blog{
+   background-image: url(img/Photos/biography-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#blog .card{
+    background: #F0FFF0;
+    border: 2px solid #e5fde5;
+    
+    
+}
+/* Testimonial-section */
+#testimonial-section .img{
+    width: 150px;
+    height: auto;
+}
+#testimonial-section p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+/* CONTACT-US */
+#contact-us{
+    background-image: url(img/Photos/biography-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+/* FOOTER */
+#footer p{
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+}
+#footer h6{
+    color: #fff;
+}
+#footer a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+}
